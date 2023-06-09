@@ -1,0 +1,12 @@
+service: aws-python-starter
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  region: eu-west-1
+  runtime: python3.9
+
+functions:
+  hello:
+    handler: handler.hello
